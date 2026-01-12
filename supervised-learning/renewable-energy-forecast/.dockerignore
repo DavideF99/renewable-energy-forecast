@@ -1,0 +1,6 @@
+.venv
+.git
+__pycache__
+notebooks
+mlflow_data
+.ipynb_checkpoints

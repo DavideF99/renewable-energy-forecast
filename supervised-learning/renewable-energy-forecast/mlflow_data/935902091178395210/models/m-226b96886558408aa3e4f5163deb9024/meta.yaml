@@ -1,0 +1,10 @@
+artifact_location: file:///Users/davideferreri/Documents/GitHub/ML-and-AI/supervised-learning/renewable-energy-forecast/mlflow_data/935902091178395210/models/m-226b96886558408aa3e4f5163deb9024/artifacts
+creation_timestamp: 1768194956836
+experiment_id: '935902091178395210'
+last_updated_timestamp: 1768194958037
+model_id: m-226b96886558408aa3e4f5163deb9024
+model_type: null
+name: random_forest_model
+source_run_id: dfc4f84355484f2f92e3ebde936d968f
+status: 2
+status_message: null
