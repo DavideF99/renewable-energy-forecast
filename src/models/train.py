@@ -22,6 +22,7 @@ def train_model(df):
     existing_drops = [c for c in cols_to_drop if c in df.columns]
     
     X = df.drop(columns=existing_drops)
+    print(X.columns)
     y = df['DC_POWER']
 
     # 2. Temporal Split (No Shuffling!)
