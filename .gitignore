@@ -1,2 +1,34 @@
-/.venv
-/data
+# 1. Python & Environment
+.venv/
+venv/
+env/
+bin/
+lib/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 2. Data & Large Files (Don't push datasets!)
+data/*.csv
+data/*.json
+*.zip
+*.tar.gz
+data/
+
+# 3. MLflow & Local Experiments
+# We want to keep our experiments local to avoid cluttering GitHub
+mlflow_data/
+mlruns/
+
+# 4. Local Models & Artifacts
+# We only want to push the "production" model if necessary, 
+# but usually, we keep large .joblib files out of git
+models/*.joblib
+models/*.pkl
+
+# 5. OS Specific
+.DS_Store
+Thumbs.db
+
+# 6. Sensitive Info (Future-proofing)
+.env
